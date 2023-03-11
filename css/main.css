@@ -1,0 +1,285 @@
+/*Nafta Light*/
+@font-face{
+    font-family: "Nafta Light";
+    src: url("../fonts/Nafta-light/NaftaLight-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Garute Light*/
+@font-face {
+    font-family: "Garute";
+    src: url("../fonts/Garute/OpenType-PS/Garute-Light.otf") format("opentype"),
+        url("../fonts/Garute/Web-TT/Garute-Light.woff") format("woff"),
+        url("../fonts/Garute/Web-TT/Garute-Light.woff2") format("woff2"),
+        url("../fonts/Garute/Web-TT/Garute-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*Garute Regular*/
+@font-face{
+    font-family: "Garute";
+    src: url("../fonts/Garute/OpenType-PS/Garute-Regular.otf") format("opentype"), 
+    url("../fonts/Garute/Web-TT/Garute-Regular.woff") format("woff"),
+    url("../fonts/Garute/Web-TT/Garute-Regular.woff2") format("woff2"),
+    url("../fonts/Garute/Web-TT/Garute-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Garute Medium*/
+@font-face {
+    font-family: "Garute";
+    src: url("../fonts/Garute/OpenType-PS/Garute-Medium.otf") format("opentype"),
+        url("../fonts/Garute/Web-TT/Garute-Medium.woff") format("woff"),
+        url("../fonts/Garute/Web-TT/Garute-Medium.woff2") format("woff2"),
+        url("../fonts/Garute/Web-TT/Garute-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*Garute SemiBold*/
+@font-face {
+    font-family: "Garute";
+    src: url("../fonts/Garute/OpenType-PS/Garute-SemiBold.otf") format("opentype"),
+        url("../fonts/Garute/Web-TT/Garute-SemiBold.woff") format("woff"),
+        url("../fonts/Garute/Web-TT/Garute-SemiBold.woff2") format("woff2"),
+        url("../fonts/Garute/Web-TT/Garute-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*Garute Bold*/
+@font-face {
+    font-family: "Garute";
+    src: url("../fonts/Garute/OpenType-PS/Garute-Bold.otf") format("opentype"),
+        url("../fonts/Garute/Web-TT/Garute-Bold.woff") format("woff"),
+        url("../fonts/Garute/Web-TT/Garute-Bold.woff2") format("woff2"),
+        url("../fonts/Garute/Web-TT/Garute-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*Garute ExtraBold*/
+@font-face {
+    font-family: "Garute";
+    src: url("../fonts/Garute/OpenType-PS/Garute-ExtraBold.otf") format("opentype"),
+        url("../fonts/Garute/Web-TT/Garute-ExtraBold.woff") format("woff"),
+        url("../fonts/Garute/Web-TT/Garute-ExtraBold.woff2") format("woff2"),
+        url("../fonts/Garute/Web-TT/Garute-ExtraBold.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*Garute Black*/
+@font-face {
+    font-family: "Garute";
+    src: url("../fonts/Garute/OpenType-PS/Garute-Black.otf") format("opentype"),
+        url("../fonts/Garute/Web-TT/Garute-Black.woff") format("woff"),
+        url("../fonts/Garute/Web-TT/Garute-Black.woff2") format("woff2"),
+        url("../fonts/Garute/Web-TT/Garute-Black.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    cursor: url("../assets/cursor.png"), auto;
+    background-color: #000000;
+}
+
+a, .mailchimp-container button{
+    cursor: url("../assets/cursor.png"), auto;
+}
+
+.navbar{
+    background-color: transparent;
+    font-family: 'Nafta Light', sans-serif;
+    position: relative;
+}
+
+.navbar-toggler{
+    border: 0;
+}
+
+.navbar-brand img{
+    width: 70px;
+}
+
+.navbar-collapse .show ~ .navbar-toggler{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon{
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
+    transition: all .2s ease-in-out;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.navbar-nav{
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-collapse:not(.show){
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.navbar-collapse{
+    opacity: 1;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link{
+    color: #4B9B40;
+}
+
+.main{
+    font-family: 'Garute', sans-serif;
+}
+
+.socials-container svg{
+    fill: #d4d4d4;
+    width: 20px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.socials-container svg:hover{
+    fill: #ffffff;
+}
+
+h1{
+    font-family: 'Nafta Light', sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.credits {
+    color: #ffffff;
+    font-family: 'Garute', sans-serif;
+    font-weight: 300;
+    font-size: .6rem;
+}
+
+@media (min-width: 576px){
+    .nav-link{
+        font-size: 1.2rem;
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+
+    .credits {
+        font-size: .7rem;
+    }
+}
+
+@media (min-width: 768px){
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+
+    .credits {
+        font-size: .7rem;
+    }
+}
+
+@media(min-width: 992px){
+    .navbar-nav {
+        position: relative;
+        background-color: transparent;
+    }
+
+    .navbar-brand img{
+        width: 90px;
+    }
+
+    .nav-link{
+        font-size: 1.9rem;
+    }
+
+    .navbar-collapse:not(.show){
+        opacity: 1;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media(min-width: 1200px){
+    .socials-container svg {
+        width: 20px;
+    }
+
+    .socials-container .col-1{
+        width: 4%;
+        max-width: 40px;
+    }
+}

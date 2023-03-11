@@ -1,0 +1,42 @@
+.post {
+    border-bottom: 5px solid #cc2f2b;
+    border-radius: 0 15px 255px / 1px 255px 15px 12px;
+    -webkit-border-radius: 0 15px 255px / 1px 255px 15px 12px;
+    -moz-border-radius: 0 15px 255px / 1px 255px 15px 12px;
+    -ms-border-radius: 0 15px 255px / 1px 255px 15px 12px;
+    -o-border-radius: 0 15px 255px / 1px 255px 15px 12px;
+}
+
+.post a {
+    color: #cc2f2b;
+    font-weight: 400;
+}
+
+.post a:hover {
+    color: #ffffff;
+}
+
+.date{
+    color: #cc2f2b;
+    font-weight: 400;
+}
+
+.article{
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.content{
+    display: none;
+}
+
+.btn-link{
+    background: transparent;
+    border: 0;
+    color: #cc2f2b;
+}
+
+.btn-link:hover{
+    color: #ffffff;
+}
+

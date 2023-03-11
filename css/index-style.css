@@ -1,0 +1,223 @@
+#home .main{
+    height: 100vh;
+    position: relative;
+}
+
+.carousel{
+    position: absolute;
+    height: 100vh;
+    min-height: 500px;
+    width: 100%;
+    top: 0;
+    z-index: -5;
+}
+
+.carousel-inner, .carousel-item{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-inner{
+    position: relative;
+}
+
+.image{
+    background: no-repeat center center scroll;
+}
+
+.main-text {
+    font-family: "Nafta Light", sans-serif;
+    color: #ffffff;
+    height: calc(100% - 72.19px);
+    min-height: 418.39px;
+}
+
+.link-container a {
+    color: #ffffff;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.mailchimp-container {
+    font-size: .9rem;
+    letter-spacing: 1.3px;
+}
+
+.mailchimp-container input {
+    font-family: "Garute", sans-serif;
+    font-size: .6rem;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: #ffffff solid 2px;
+    color: #ffffff;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    width: 100%;
+}
+
+.mailchimp-container input:focus-visible {
+    outline: none;
+    border-top: #ffffff solid 2px;
+}
+
+.mailchimp-container button {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.1rem;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.link-container a:hover,
+.mailchimp-container button:hover {
+    color: #4B9B40;
+}
+
+@media (min-width: 576px){
+    .link-container a{
+        font-size: 2.3rem;
+    }
+
+    .mailchimp-container, .mailchimp-container button {
+        font-size: 1.3rem;
+    }
+
+    .mailchimp-container input {
+        font-size: .8rem;
+    }
+
+    .main-text {
+        min-height: 490.38px;
+    }
+
+    .carousel{
+        min-height: 563px;
+    } 
+}
+
+@media (min-width: 768px) {
+    .link-container a {
+        font-size: 2.7rem;
+    }
+
+    .mailchimp-container,
+    .mailchimp-container button {
+        font-size: 1.5rem;
+    }
+
+    .mailchimp-container input {
+        font-size: .9rem;
+    }
+
+    .main-text {
+        min-height: 532.64px;
+    }
+
+    .carousel {
+        min-height: 610px;
+    }
+}
+
+@media(min-width: 992px){
+    .link-container a {
+        font-size: 2.8rem;
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+    }
+
+    .link-container a:hover, .mailchimp-container button:hover{
+        color: #4B9B40;
+    }
+
+    .mailchimp-container,
+    .mailchimp-container button {
+        font-size: 1.5rem;
+    }
+
+    .mailchimp-container button{
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+    }
+
+    .mailchimp-container input {
+        font-size: .9rem;
+        max-width: 250px;
+    }
+
+    .main-text {
+        height: calc(100% - 85.39px);
+        min-height: 539.81px;
+    }
+
+    .carousel {
+        min-height: 635px;
+    }
+}
+
+@media (min-width: 1200px){
+    .link-container a {
+        font-size: 2.8rem;
+    }
+
+    .mailchimp-container,
+    .mailchimp-container button {
+        font-size: 1.6rem;
+    }
+
+    .mailchimp-container input {
+        font-size: 1rem;
+    }
+
+    .main-text {
+        min-height: 453.22px;
+    }
+
+    .carousel {
+        min-height: 550px;
+    }
+}
+
+@media(min-width: 1400px){
+    .link-container a {
+        font-size: 3rem;
+    }
+
+    .mailchimp-container,
+    .mailchimp-container button {
+        font-size: 1.8rem;
+    }
+
+    .main-text > .row {
+        max-width: 1400px;
+    }
+
+    .main-text{
+        min-height: 471.81px;
+    }
+
+    .carousel {
+        min-height: 565px;
+    }
+}

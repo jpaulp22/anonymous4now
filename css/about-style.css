@@ -1,0 +1,20 @@
+.main{
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.main p{
+    line-height: 30px;
+}
+
+@media (min-width: 1200px){
+    .main img{
+        width: 400px;
+    }
+}
+
+@media (min-width: 1400px){
+    .main img{
+        width: 500px;
+    }
+}

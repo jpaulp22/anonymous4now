@@ -1,0 +1,39 @@
+#contact{
+    height: 100vh;
+    min-height: 815px;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../assets/contact/ef.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.links a{
+    color: #cc2f2b;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.links a:hover{
+    color: #ffffff;
+}
+
+@media (min-width: 576px){
+    #contact{
+        min-height: 845px;
+    }
+}
+
+@media (min-width: 768px){
+    #contact{
+        min-height: 862px;
+    }
+}
+
+@media (min-width: 992px){
+    #contact{
+        min-height: 917px;
+    }
+}
